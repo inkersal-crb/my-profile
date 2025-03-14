@@ -1,6 +1,7 @@
 import git from '../assets/github.svg';
 import linkedin from '../assets/linkedin.svg';
-import logo from "../assets/im logo.png";
+import logo from "../assets/logo.png"; 
+
 const Header = () => (
   <header className="text-center py-10 p-6">
     <div className="max-w-4xl mx-auto">
@@ -20,17 +21,17 @@ const Header = () => (
           href="https://github.com/inkersal501"
           target="_blank"
           rel="noopener noreferrer"
-          className="px-2 py-2 rounded-lg bg-white shadow-md hover:bg-yellow-300 transition"
+          className="px-4 py-4 rounded-lg bg-white shadow-md hover:bg-yellow-300 transition"
         >
-          <img src={git} className="w-8" alt="Github" />
+          <img src={git} className="w-7" alt="Github" />
         </a>
         <a
           href="https://www.linkedin.com/in/inkersalmahendran"
           target="_blank"
           rel="noopener noreferrer"
-          className="px-2 py-2 rounded-lg bg-white shadow-md hover:bg-yellow-300 transition"
+          className="px-4 py-4 rounded-lg bg-white shadow-md hover:bg-yellow-300 transition"
         >
-          <img src={linkedin} className="w-8" alt="Linkedin" />
+          <img src={linkedin} className="w-7" alt="Linkedin" />
         </a>
       </div>
     </div>

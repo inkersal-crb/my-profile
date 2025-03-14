@@ -8,7 +8,7 @@ function Home() {
   return (
     <div className="min-h-screen bg-black text-white p-6">
       <Helmet>
-        <title>Inkersal Mahendran – Full-Stack Developer | React, Node.js, PHP</title>
+        <title>Inkersal Mahendran - Full-Stack Developer | React, Node.js, PHP</title>
         <meta
           name="description"
           content="Inkersal Mahendran, a Full-Stack Developer specializing in React, Node.js, and PHP. Crafting scalable and high-performance web applications."

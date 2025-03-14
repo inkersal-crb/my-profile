@@ -2,7 +2,7 @@
 import { Fade } from "react-awesome-reveal";
 
 const Header = () => (
-  <header className="text-center py-10 p-6" >
+  <header className="text-center py-15 p-6" id="top">
     <div className="max-w-4xl mx-auto">
       <Fade direction="up" triggerOnce>
         <div className="flex justify-center">

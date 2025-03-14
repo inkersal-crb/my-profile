@@ -3,8 +3,8 @@ import linkedin from '../assets/linkedin.svg';
 import email from '../assets/email.svg';
 
 const Contact = () => (
-    <section className="py-10 text-center" id="contact">
-      <h2 className="text-3xl font-semibold mb-6">Contact Me</h2>
+    <section className="py-15 text-center">
+      <h2 className="text-3xl font-semibold mb-6" id="contact">Contact Me</h2>
       <p className="text-gray-400 mb-4">
         Let&apos;s collaborate! Feel free to reach out via email or social platforms.
       </p>

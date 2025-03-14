@@ -1,5 +1,5 @@
 const About = () => (
-  <section className="py-10 max-w-4xl mx-auto">
+  <section className="py-10 max-w-4xl mx-auto" id="about">
     <h2 className="text-3xl font-semibold text-white">About Me</h2>
     <p className="text-gray-300 mt-4">
       I am a passionate full-stack developer with expertise in React, Node.js, and PHP. I specialize in building

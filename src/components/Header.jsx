@@ -1,13 +1,16 @@
 import git from '../assets/github.svg';
 import linkedin from '../assets/linkedin.svg';
 import logo from "../assets/logo.png"; 
+import { Fade } from "react-awesome-reveal";
 
 const Header = () => (
   <header className="text-center py-10 p-6">
     <div className="max-w-4xl mx-auto">
-      <div className="flex justify-center">
-        <img src={logo} className="w-48" alt="logo" />
-      </div>
+      <Fade direction="up" triggerOnce>
+        <div className="flex justify-center">
+          <img src={logo} className="w-48" alt="logo" />
+        </div>
+      </Fade>
       <h1 className="text-5xl font-extrabold text-yellow-300">Inkersal Mahendran</h1>
       <h2 className="text-2xl text-white-800 mt-2">
         Full-Stack Developer | React | Node.js | PHP
